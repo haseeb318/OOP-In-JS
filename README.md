@@ -8,10 +8,9 @@ This repository explores **Object-Oriented Programming (OOP)** concepts in JavaS
 
 1. [What is OOP?](#what-is-oop)
 2. [Key Concepts](#key-concepts)
-3. [Code Walkthrough](#code-walkthrough)
-4. [The Four Pillars of OOP](#the-four-pillars-of-oop)
-5. [Why Use OOP?](#why-use-oop)
-6. [Running the Code](#running-the-code)
+3. [The Four Pillars of OOP](#the-four-pillars-of-oop)
+4. [Why Use OOP?](#why-use-oop)
+5. [Running the Code](#running-the-code)
 
 ---
 
