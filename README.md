@@ -39,56 +39,6 @@ Think of it like a **cookie cutter**:
 
 ---
 
-## Code Walkthrough
-
-Here is the code from `class-and-object.js`, explained line by line:
-
-```javascript
-// 1. Defining a class
-class Person {
-  // 2. Constructor - runs automatically on object creation
-  constructor(name, age) {
-    ((this.name = name), (this.age = age));
-  }
-
-  // 3. A method (behavior) of the class
-  introduce() {
-    console.log(`Hi, my name is ${this.name} and I am ${this.age} years old.`);
-  }
-}
-
-// 4. Creating an object (instance) using 'new'
-const person1 = new Person("Alice", 25);
-
-// 5. Accessing properties
-console.log(person1.name);
-console.log(person1.age);
-
-// 6. Calling a method
-person1.introduce();
-```
-
-### Step-by-step Explanation
-
-1. **`class Person { ... }`** — Declares a class named `Person`. This is the blueprint.
-2. **`constructor(name, age)`** — The constructor method. It is called **automatically** when a new `Person` is created. It receives `name` and `age` as parameters and assigns them to the object using `this`.
-3. **`introduce()`** — A method (function inside a class) that prints a greeting using the object's own `name` and `age`.
-4. **`new Person("Alice", 25)`** — Creates a new object `person1` based on the `Person` class. The `new` keyword triggers the constructor with the values `"Alice"` and `25`.
-5. **Accessing properties** — `person1.name` and `person1.age` read the values stored on the object.
-6. **Calling a method** — `person1.introduce()` invokes the method, which prints the greeting.
-
-### Expected Output
-
-```
-Alice
-25
-Hi, my name is Alice and I am 25 years old.
-```
-
-> **Note:** The original code had `console.log(person1.name);` twice. I corrected the second one to `console.log(person1.age);` so both properties are demonstrated.
-
----
-
 ## The Four Pillars of OOP
 
 OOP is built on four core principles. This example touches on **Encapsulation**, and the others will be added in later examples.
@@ -154,14 +104,6 @@ class Teacher extends Person {
 
 ---
 
-## Running the Code
-
-Make sure you have [Node.js](https://nodejs.org) installed, then run:
-
-```bash
-node class-and-object.js
-```
-
 ---
 
 ## Folder Structure
@@ -171,5 +113,3 @@ oop in js/
 ├── class-and-object.js   # Class & Object example
 └── README.md             # This documentation
 ```
-
-More OOP concepts (inheritance, encapsulation, polymorphism, abstraction) will be added as separate files.
