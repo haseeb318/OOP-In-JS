@@ -18,7 +18,7 @@ console.log(person1.name);
 // Call method
 person1.introduce();
 
-Explanation;
+// Explanation;
 
 // Class (Person): A blueprint for creating objects.
 // Constructor: Runs automatically when a new object is created and initializes properties.
