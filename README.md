@@ -10,8 +10,9 @@ This repository explores **Object-Oriented Programming (OOP)** concepts in JavaS
 2. [Key Concepts](#key-concepts)
 3. [The Four Pillars of OOP](#the-four-pillars-of-oop)
 4. [Encapsulation Deep Dive](encapsulation.md)
-5. [Abstraction Deep Dive](Abstraction.md)
-6. [Why Use OOP?](#why-use-oop)
+5. [Inheritance Deep Dive](inheritance.md)
+6. [Abstraction Deep Dive](Abstraction.md)
+7. [Why Use OOP?](#why-use-oop)
 7. [Running the Code](#running-the-code)
 
 ---
