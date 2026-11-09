@@ -12,8 +12,9 @@ This repository explores **Object-Oriented Programming (OOP)** concepts in JavaS
 4. [Encapsulation Deep Dive](encapsulation.md)
 5. [Inheritance Deep Dive](inheritance.md)
 6. [Abstraction Deep Dive](Abstraction.md)
-7. [Why Use OOP?](#why-use-oop)
-7. [Running the Code](#running-the-code)
+7. [Polymorphism Deep Dive](polymorphism.md)
+8. [Why Use OOP?](#why-use-oop)
+9. [Running the Code](#running-the-code)
 
 ---
 
@@ -113,5 +114,9 @@ class Teacher extends Person {
 ```
 oop in js/
 ├── class-and-object.js   # Class & Object example
+├── encapsulation.md      # Encapsulation concept notes
+├── inheritance.md        # Inheritance concept notes
+├── Abstraction.md         # Abstraction concept notes
+├── polymorphism.md       # Polymorphism concept notes
 └── README.md             # This documentation
 ```
